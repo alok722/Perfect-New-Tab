@@ -1,13 +1,13 @@
 const APP_NAME = 'Perfect New Tab'
 const defaultPreferences = {
-    ui: {
-        headbgcolor: '#625772',
-        bodybgcolor: '#537780',
-        footerbgcolor: '#4A2C2C',
-        font: 'Raleway'
-    },
-    bookmarks: {
-        minItems: 20,
-        maxItems: 1000
-    }
+  ui: {
+    headbgcolor: "#274472",
+    bodybgcolor: "#ffe66d",
+    footerbgcolor: "#274472",
+    font: "Raleway",
+  },
+  bookmarks: {
+    minItems: 20,
+    maxItems: 1000,
+  },
 };

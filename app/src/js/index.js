@@ -24,13 +24,6 @@ const customizeMenuComponent = new Vue({
     hideText: function () {
       this.showCustomizeText = 'hidden'
     },
-    openOptions: function () {
-      if (chrome.runtime.openOptionsPage) {
-        chrome.runtime.openOptionsPage()
-      } else {
-        window.open(chrome.runtime.getURL('options.html'))
-      }
-    },
     addListener: function () {
       const self = this
       chrome.storage.onChanged.addListener((changes, area) => {
